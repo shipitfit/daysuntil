@@ -2,6 +2,9 @@
   "name": "daysuntil",
   "version": "1.0.0",
   "description": "Count Down website",
+  "scripts": {
+    "start": "node server.js"
+  },
   "main": "server.js",
   "repository": {
     "type": "git",
