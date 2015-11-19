@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+.game-canvas {}
+
+canvas {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.counter,
+.xmas-text {
+    font-family: 'Courgette', cursive;
+    font-size: 72px;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 324px;
+    text-shadow: 3px 4px 5px rgba(255, 128, 0, 1);
+}
+
+.xmas-text {
+    left: 50%;
+    top: 400px;
+}

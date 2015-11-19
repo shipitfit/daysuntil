@@ -1,0 +1,20 @@
+{
+  "name": "daysuntil",
+  "version": "1.0.0",
+  "description": "Count Down website",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shipitfit/daysuntil.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shipitfit/daysuntil/issues"
+  },
+  "homepage": "https://github.com/shipitfit/daysuntil#readme",
+  "dependencies" : {
+    "serve-static": "~1.10.0",
+    "finalhandler": "~0.4.0"
+    }
+}
