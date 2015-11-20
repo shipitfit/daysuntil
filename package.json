@@ -1,23 +1,36 @@
 {
-  "name": "daysuntil",
+  "name": "DaysUntil",
   "version": "1.0.0",
-  "description": "Count Down website",
-  "scripts": {
-    "start": "node server.js"
+  "description": "Count down to a specific date",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "http://www.openshift.com/"
   },
-  "main": "server.js",
+  "homepage": "http://www.openshift.com/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shipitfit/daysuntil.git"
+    "url": "https://github.com/openshift/origin-server"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shipitfit/daysuntil/issues"
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
   },
-  "homepage": "https://github.com/shipitfit/daysuntil#readme",
-  "dependencies" : {
+
+  "dependencies": {
     "serve-static": "~1.10.0",
     "finalhandler": "~0.4.0"
-    }
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
 }
